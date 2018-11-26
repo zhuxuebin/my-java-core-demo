@@ -42,10 +42,6 @@ public class Test {
 
         List<String> sss = taskBagNos.stream().filter(s->"4".equals(s)).collect(Collectors.toList());
         System.out.println(sss);
-
-        String s1 = "1111",s2 = null;
-        String s3 = s1 + s2;
-        System.out.println(s3);
     }
 }
 class Point {
