@@ -19,7 +19,7 @@ public class InvokeSample01 {
         invokeSample01.method1(new Integer(1),null);
     }
 
-    public void method1(int x, Object obj){
+    public final void method1(int x, Object obj){
         System.out.println("int");
     }
     public void method1(Integer x, Object obj){
